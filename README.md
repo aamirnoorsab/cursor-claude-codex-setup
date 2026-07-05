@@ -104,4 +104,62 @@ This setup is directly relevant to the role: the company's own product integrate
 
 
 
+---
 
+# Step 2 — Research Project: AI-Powered SEO Content Production
+
+## What This Is
+
+A research collection on **AI-Powered SEO Content Production** (GEO / AEO / AI search visibility): 10 expert sources, with their recent content collected and organized to support building a real playbook later.
+
+Topic chosen because it is the most active and fastest-moving area of search marketing right now — the shift from ranking in traditional search to being cited by AI answer engines (ChatGPT, Google AI Overviews, Perplexity, Gemini).
+
+## What I Collected
+
+- **`research/sources.md`** — 10 experts with profile/site links and a one-line justification each.
+- **`research/youtube-transcripts/`** — 5 transcripts pulled via the YouTube Transcript API (Python), one per expert who publishes strong long-form video/conference content.
+- **`research/linkedin-posts/`** — 5 files (one per expert) containing their strongest recent LinkedIn posts on AI search, manually collected.
+- **`research/other/key-themes.md`** — a synthesis of the recurring patterns, agreements, and disagreements across all 10 sources.
+
+## The 10 Experts and Why They Were Chosen
+
+Selection prioritized **original, evidence-backed contribution over reach or commentary**. Each source either publishes original research, ships a practitioner framework, or brings measurement rigor — not "first Google result" listicles.
+
+| Expert | Why chosen | Collected via |
+|---|---|---|
+| Kevin Indig | Original clickstream/AI-search research; "Visibility Layer" and "Trust Stack" frameworks | YouTube transcript |
+| Lily Ray | Original citation measurement; anti-hype myth-busting on GEO/AEO/LLMO | YouTube transcript |
+| Marie Haynes | Deep Google ranking/EEAT expertise (consulted by Google's Danny Sullivan) | YouTube transcript |
+| Wil Reynolds | Measurement angle: AI visibility vs. business impact | YouTube transcript |
+| Rand Fishkin | Zero-click strategy, brand-association-through-language, SparkToro research | YouTube transcript |
+| Aleyda Solís | 10 AI-readiness characteristics framework; original polls; strong curation | LinkedIn posts |
+| Mike King (iPullRank) | Relevance Engineering, Agentic RAG, content-chunking — deep technical original work | LinkedIn posts |
+| Dan Petrovic (Dejan AI) | Trained an LLM from scratch; original brand-authority-in-LLM-memory research | LinkedIn posts |
+| Tim Soulo (Ahrefs) | Largest-scale AI-search research in the set (1B+ data points, 14 studies) | LinkedIn posts |
+| Kaleigh Moore | Getting-started AEO strategy; AI-search job-market research | LinkedIn posts |
+
+## Method Notes
+
+**Collection was matched to each expert's primary channel.** Five experts publish strong long-form video (conference talks, podcast interviews) — their content was collected as YouTube transcripts via the `youtube-transcript-api` Python library. The other five publish primarily in written/long-form on LinkedIn — their posts were collected manually.
+
+**LinkedIn was collected manually, not scraped.** Automated LinkedIn scraping violates their Terms of Service, so posts were copied by hand from public profiles. This is slower but avoids the ToS/account risk of scraping.
+
+**Attribution is kept clean.** Where an expert shared or analyzed someone else's work (e.g., Aleyda sharing MJ Cachón's eye-tracking study, or Mike King sharing Ben Wills' ranking-factors study), it is labeled as a share/analysis, not presented as the expert's own original research.
+
+**Quality over volume.** 2–4 strong, on-topic items per expert rather than padding to a fixed number. Where a source drifts off-topic (e.g., a podcast wandering into unrelated territory), only the on-topic portions are treated as relevant, and this is noted.
+
+## Repo Structure
+
+```
+research/
+  sources.md                    # 10 experts, links, justifications
+  youtube-transcripts/          # 5 transcripts (one per video)
+  linkedin-posts/               # 5 files (one per expert)
+  other/
+    key-themes.md               # cross-source synthesis
+get_transcripts.py              # script used to pull YouTube transcripts via API
+```
+
+## Technical Note on Transcript Collection
+
+Transcripts were pulled programmatically using the `youtube-transcript-api` Python library (see `get_transcripts.py`). The script takes a dictionary of `{label: video_id}` pairs, fetches each transcript via the API, and writes a clean text file per video into `research/youtube-transcripts/`. Video IDs were extracted from standard and short-form YouTube URLs.
