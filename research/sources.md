@@ -20,3 +20,23 @@
 
 \- \*\*Dan Petrovic\*\* — https://www.linkedin.com/in/seoguy/ | https://dejan.ai/dan-petrovic/ — Founder of Dejan AI, trained a language model from scratch to understand retrieval mechanics firsthand, publishes original technical research rather than marketing content.
 
+
+
+\- \*\*Tim Soulo\*\* — https://www.linkedin.com/in/timsoulo/ | https://www.youtube.com/@ahrefspodcast — CMO at Ahrefs; runs the largest-scale AI search datasets in the field (ChatGPT vs Google traffic share across tens of thousands of sites, AI Overviews click-loss studies). Data-first, deliberately anti-hype.
+
+
+
+\- \*\*Wil Reynolds\*\* — https://www.linkedin.com/in/wilreynolds/ | https://www.youtube.com/user/wilreynolds — Founder of Seer Interactive; two decades in search, credible operator voice on the rankings-to-AI-visibility shift, shares uncomfortable first-party data (Seer's own organic traffic down \~45% while the business grew).
+
+
+
+\- \*\*Marie Haynes\*\* — https://www.linkedin.com/in/marie-haynes/ | https://www.mariehaynes.com/ | https://www.youtube.com/channel/UC5JCNbPrfBAhnVG1Cfx25qA — Founder of Marie Haynes Consulting; among the first to teach E-E-A-T, author of "SEO in the Gemini Era," runs the "Search News You Can Use" podcast tracking AI search algorithm changes. 16 years of search expertise.
+
+
+
+\- \*\*Kaleigh Moore\*\* — https://www.linkedin.com/in/kaleighmoore/ | https://www.kaleighmoore.com/ | https://www.youtube.com/channel/UCRJaeJYJoNm-AcZADywn60Q — B2B content writer publishing original framework work (the "Source Signal Stack" for modeling why AI cites one source over another). Content practitioner analyzing AI discoverability, not just SEO technician.
+
+
+
+\- \*\*Rand Fishkin\*\* — https://www.linkedin.com/in/randfishkin/ | https://www.youtube.com/@randfish — Founder of SparkToro (previously Moz); his Jan 2026 SparkToro study (600 volunteers, \~3,000 prompt runs across ChatGPT/Claude/AI Overviews) is among the most-cited primary research on AI search inconsistency.
+
