@@ -2,6 +2,10 @@
 
 
 
+\_Collected: July 2026. Annotations reflect each expert's recent (2025–2026) work on AI search / GEO / AEO.\_
+
+
+
 \- \*\*Aleyda Solís\*\* — https://www.linkedin.com/in/aleyda/ | https://www.aleydasolis.com/en/blog/ — International/multilingual GEO specialist, runs Orainti consultancy, documented work on how AI models behave differently across language markets.
 
 
@@ -34,7 +38,7 @@
 
 
 
-\- \*\*Kaleigh Moore\*\* — https://www.linkedin.com/in/kaleighmoore/ | https://www.kaleighmoore.com/ | https://www.youtube.com/channel/UCRJaeJYJoNm-AcZADywn60Q — B2B content writer publishing original framework work (the "Source Signal Stack" for modeling why AI cites one source over another). Content practitioner analyzing AI discoverability, not just SEO technician.
+\- \*\*Kaleigh Moore\*\* — https://www.linkedin.com/in/kaleighmoore/ | https://www.kaleighmoore.com/ | https://www.youtube.com/channel/UCRJaeJYJoNm-AcZADywn60Q — B2B content creator and AI Search Strategist; writes the "Context Window" newsletter (10,000+ subscribers) on AEO strategy, LLM citation building, and the emerging AI-search discipline. Content practitioner analyzing AI discoverability, not just an SEO technician.
 
 
 
